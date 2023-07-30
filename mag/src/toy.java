@@ -53,11 +53,6 @@ public class toy {
         this.wt = wt;
     }
 
-    @Override
-    public String toString() {
-        return "toy [id=" + id + ", name=" + name + ", quantity=" + quantity + ", wt=" + wt + "]";
-    }
-
     
 
 }
