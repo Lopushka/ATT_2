@@ -1,15 +1,18 @@
+import java.util.Scanner;
+
 public class toy {
 
     private int id;
     private String name;
     private int quantity;
     private Double wt;
+     Scanner iScanner = new Scanner(System.in);
 
     /**
      * @param id       id игрушки
      * @param name     название игрушки
      * @param quantity количество
-     * @param wt       вес игрушки
+     * @param wt       частота выпадения игрушки (вес в % от 100)
      */
     public toy(int id, String name, int quantity, Double wt) {
         this.id = id;
